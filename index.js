@@ -30,5 +30,3 @@ function prependKitten(Milo, Otis, Garfield) {
   return ['Garfield', ...kittens]
 }
 kittens();
-
-
