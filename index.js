@@ -15,3 +15,8 @@ function destructivelyRemoveLastKitten(Milo, Otis, Garfield) {
   kittens.pop();
 }
 kittens();
+
+function destructivelyRemoveFirstKitten(Milo, Otis, Garfield) {
+  kittens.shift();
+}
+kittens();
