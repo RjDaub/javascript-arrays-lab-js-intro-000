@@ -20,3 +20,7 @@ function destructivelyRemoveFirstKitten(Milo, Otis, Garfield) {
   kittens.shift();
 }
 kittens();
+
+function appendKitten(Milo, Otis, Garfield) {
+  return [...kittens, '']
+}
