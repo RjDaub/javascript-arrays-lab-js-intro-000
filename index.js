@@ -13,5 +13,6 @@ kittens();
 
 function destructivelyRemoveLastKitten(Milo, Otis, Garfield) {
   kittens.shift()
+  return destructivelyRemoveLastKitten();
 }
 kittens ();
