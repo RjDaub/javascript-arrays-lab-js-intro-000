@@ -25,3 +25,8 @@ function appendKitten(Milo, Otis, Garfield) {
   return [...kittens, 'Broom']
 }
 kittens();
+
+function prependKitten(Milo, Otis, Garfield) {
+  return ['Garfield', ...Kittens]
+}
+kittens();
