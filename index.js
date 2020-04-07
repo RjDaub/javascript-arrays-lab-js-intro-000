@@ -6,7 +6,7 @@ function destructivelyAppendKitten(Milo, Otis, Garfield) {
 }
 kittens();
 
-function destructivelyAppendKitten(Milo, Otis, Garfield) {
+function destructivelyPrependKitten(Milo, Otis, Garfield) {
   kittens.unshift('Ralph')
 }
 kittens();
