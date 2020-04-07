@@ -30,3 +30,8 @@ function prependKitten(Milo, Otis, Garfield) {
   return ['Arnold', ...kittens]
 }
 kittens();
+
+function removeLastKitten(Milo, Otis, Garfield) {
+  return kitten.slice(1)
+}
+kittens();
