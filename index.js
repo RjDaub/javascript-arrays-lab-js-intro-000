@@ -5,4 +5,3 @@ function destructivelyAppendKitten(Milo, Otis, Garfield) {
   return kittens;
 }
 kittens.push('Ralph')
-  
