@@ -22,6 +22,6 @@ function destructivelyRemoveFirstKitten(Milo, Otis, Garfield) {
 kittens();
 
 function appendKitten(Milo, Otis, Garfield) {
-  return [...kittens, 's']
+  return [...kittens, 'Broom']
 }
 kittens();
