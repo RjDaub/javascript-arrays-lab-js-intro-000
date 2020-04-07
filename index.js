@@ -35,3 +35,8 @@ function removeLastKitten(Milo, Otis, Garfield) {
   return kittens.slice(0 ,kittens.length - 1)
 }
 kittens();
+
+function removeFirstKitten(Milo, Otis, Garfield) {
+  return kittens.slice(1)
+}
+kittens();
